@@ -22,9 +22,9 @@
     <!-- 配置数据源 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/ssm"/>
+        <property name="jdbcUrl" value="jdbc:mysql://121.36.166.9:3307/ssm"/>
         <property name="user" value="root"/>
-        <property name="password" value="root"/>
+        <property name="password" value="123456"/>
     </bean>
 
     <!-- 配置 SqlSession 工厂 -->

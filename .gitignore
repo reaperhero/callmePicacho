@@ -1,2 +1,4 @@
 .idea
 callmePicacho.iml
+target
+.gitignore
